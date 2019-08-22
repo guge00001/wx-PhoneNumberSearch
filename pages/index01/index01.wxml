@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="body">  
+
+<view class="title">
+<view>身份证查询</view>
+ </view>
+  <view class="part01">
+    <!-- 引用头部 include是引用全部文件 -->
+    <!-- <include src="../template/header" />  
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="red">{{userInfo.nickName}} {{motto}}</text> -->
+    <view>{{motto}}</view>
+   
+     <text class="m10">（M为“男”，F为“女”）</text>
+  
+  <input typepe="number" bindinput="bindKeyInput" class="input" maxlength="18" placeholder="请输入身份证号码号码" />
+</view>
+ <button  class="button01" bindtap="qsscheck" >立即查询</button>
+
+   <view class="part02">
+  <view class="infor01"> 查询结果</view>
+  <view class="infor02">地址：{{address}}</view>
+  <view class="infor02">生日：{{birthday}}</view>
+  <view class="infor02">性别：{{sex}}</view>
+ 
+  </view>
+
+ 
+ 
+  
+</view>

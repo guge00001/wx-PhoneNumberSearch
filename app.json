@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index04/index04",
+    "pages/index02/index02",
+    "pages/index01/index01",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index03/index03"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#97FFFF",
+    "navigationBarTitleText": "百事通",
+    "backgroundColor": "#97FFFF",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#97FFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "电话",
+        "iconPath": "images/icon_component.png",
+        "selectedIconPath": "images/icon_component_HL.png"
+      },
+      {
+        "pagePath": "pages/index01/index01",
+        "text": "身份",
+        "iconPath": "images/icon_API.png",
+        "selectedIconPath": "images/icon_API_HL.png"
+      },
+      {
+        "pagePath": "pages/index02/index02",
+        "text": "成语",
+        "iconPath": "images/icon_API.png",
+        "selectedIconPath": "images/icon_API_HL.png"
+      },
+      {
+        "pagePath": "pages/index03/index03",
+        "text": "字典",
+        "iconPath": "images/icon_API.png",
+        "selectedIconPath": "images/icon_API_HL.png"
+      },
+      {
+        "pagePath": "pages/index04/index04",
+        "text": "油价",
+        "iconPath": "images/icon_API.png",
+        "selectedIconPath": "images/icon_API_HL.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

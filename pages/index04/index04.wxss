@@ -1,0 +1,112 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 10rpx;
+}
+
+/** 修改button默认的点击态样式类**/
+.button-hover {
+  background-color: blue;
+}
+/** 添加自定义button点击态样式类**/
+.other-button-hover {
+  background-color: blur;
+}
+
+.input {
+  width: 90%;
+  height: 30px; 
+  border:solid 5rpx rgb(11, 26, 235);
+  margin-top:15px ;
+  padding: 5px;
+  border-radius: 3px;
+  color: red;
+ 
+}
+
+.body{
+  
+  background-color: #97FFFF;
+  padding:10px;
+  line-height: 2;
+  height: 100%;
+  /* border-radius: 10px; */
+}
+.part01{
+  background-color: rgba(48, 255, 65, 0.623);
+  height: 100px;
+  border-style: double; 
+  border-radius: 10px;
+  padding: 5px;
+  border-width: 5px;
+  border-color: black;
+   box-shadow: 7px 7px rgb(131, 134, 172);
+   margin-top: 10px;
+   font-family:STZhongsong;
+   font-weight: bolder;
+   font-size: 20px;
+   color:rgba(51, 48, 255, 0.623) ;
+}
+.part02{
+  height: 100%;
+  border-style: double; 
+  border-radius: 10px;
+  padding: 5px;
+  border-width: 5px;
+  border-color:red;
+   box-shadow: 7px 7px rgb(131, 134, 172);
+   margin-top: 10px;
+   font-family: STZhongsong;
+   /* display: flex;
+   justify-content: space-between; */
+}
+.button01{
+  color: royalblue;
+  border-radius: 98rpx; 
+  margin-top: 20px;
+}
+.infor01{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(11, 26, 235);
+}
+.infor02{
+  font-size: 20px;
+  font-weight: bold;
+  color: #912CEE;
+}
+.title{
+  background-color: rgba(48, 255, 65, 0.623);
+  height:60px;
+  border-style: double; 
+  border-radius: 10px;
+  padding: 5px;
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+   box-shadow: 7px 7px rgb(131, 134, 172);
+  text-align: center;
+   font-family:STZhongsong;
+   font-weight: bolder;
+   font-size: 30px;
+   color:rgba(51, 48, 255, 0.623) ;
+}
+.text01{
+  color: red;
+   
+}

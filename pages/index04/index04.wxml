@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="body">  
+<view class="title">
+<view>今日油价查询</view>
+ </view>
+  <view class="part01">
+    <!-- 引用头部 include是引用全部文件 -->
+    <!-- <include src="../template/header" />   -->
+    <!-- <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image> -->
+    <!-- <text class="red">{{userInfo.nickName}} {{motto}}</text> -->
+   
+     <view>{{motto}}</view>
+     
+     <input typepe="number" bindinput="bindKeyInput" class="input" maxlength="11" placeholder="请输入省份" />
+     </view>
+     <button  class="button01" bindtap="qsscheck" >立即查询</button>
+
+  <view class="part02">
+  <view class="infor01"> 查询结果</view>
+  <view class="infor02">时间：{{ct}}</view>
+  <view class="infor02">省份：{{prov}}</view>
+  <view class="infor02">p89：{{p89}}</view>
+   <view class="infor02">p90：{{p90}}</view>
+  <view class="infor02">p92：{{p92}}</view>
+  <view class="infor02">p93：{{p93}}</view>
+  <view class="infor02">p95：{{p95}}</view>
+   <view class="infor02">p97：{{p97}}</view>
+  <view class="infor02">p98：{{p98}}</view>
+  <view class="infor02">p0 ：{{p0}}</view>
+ 
+
+  
+  
+  </view>
+  
+  
+</view>

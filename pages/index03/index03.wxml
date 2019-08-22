@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="body">  
+<view class="title">
+<view>新华字典查询</view>
+ </view>
+  <view class="part01">
+    <!-- 引用头部 include是引用全部文件 -->
+    <!-- <include src="../template/header" />   -->
+    <!-- <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image> -->
+    <!-- <text class="red">{{userInfo.nickName}} {{motto}}</text> -->
+   
+     <view>{{motto}}</view>
+     
+     <input typepe="number" bindinput="bindKeyInput" class="input" maxlength="11" placeholder="请输入汉字" />
+     </view>
+     <button  class="button01" bindtap="qsscheck" >立即查询</button>
+
+  <view class="part02">
+  <view class="infor01"> 查询结果</view>
+  <view class="infor02"><view class="text01">词语：</view>{{words}}</view>
+  <view class="infor02"><view class="text01">五笔：</view>{{wubi}}</view>
+  <view class="infor02"><view class="text01">汉字：</view>{{hanzi}}</view>
+  <view class="infor02"><view class="text01">部首：</view>{{bushou}}</view>
+  <view class="infor02"><view class="text01">详细：</view>{{detail_explain}}</view>
+  <view class="infor02"><view class="text01">笔画：</view>{{bihua}}</view>
+    <view class="infor02"><view class="text01">拼音：</view>{{pinyin}}</view>
+
+  </view>
+  
+  
+  
+  
+</view>

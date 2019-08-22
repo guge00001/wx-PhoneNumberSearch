@@ -1,0 +1,11 @@
+<template name="A">
+  <text> A template </text>
+</template>
+
+<template name="B">
+  <text> B template </text>
+</template>
+
+<template name="C">
+  <text> C template </text>
+</template>

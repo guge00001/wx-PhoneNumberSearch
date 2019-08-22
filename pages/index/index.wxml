@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="body">  
+<view class="title">
+<view>电话号码归属地查询</view>
+ </view>
+  <view class="part01">
+    <!-- 引用头部 include是引用全部文件 -->
+    <!-- <include src="../template/header" />   -->
+    <!-- <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image> -->
+    <!-- <text class="red">{{userInfo.nickName}} {{motto}}</text> -->
+   
+     <view>{{motto}}</view>
+     
+     <input typepe="number" bindinput="bindKeyInput" class="input" maxlength="11" placeholder="请输入11位手机号码" />
+     </view>
+     <button  class="button01" bindtap="qsscheck" >立即查询</button>
+
+  <view class="part02">
+  <view class="infor01"> 查询结果</view>
+  <view class="infor02">省份：{{prov}}</view>
+  <view class="infor02">城市：{{city}}</view>
+  <view class="infor02">运营商：{{name}}</view>
+  </view>
+  
+  
+  
+  
+</view>
